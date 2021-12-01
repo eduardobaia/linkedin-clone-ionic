@@ -1,0 +1,7 @@
+{
+  "name": "linkedin-clone-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
