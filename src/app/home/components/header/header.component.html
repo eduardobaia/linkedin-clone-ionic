@@ -1,13 +1,53 @@
-<p>
-<ion-header class="ion-container ion-no-border ">
+<ion-header class="ion-container ion-no-border">
   <ion-toolbar>
     <div class="toolbar-wrapper">
       <ion-buttons slot="start" class="ion-no-padding">
-        <ion-button (click)="onClick()">
-          <ion-icon  size="small" class="linkedin-logo" name="logo-linkedin"></ion-icon>
-         </ion-button>
+        <ion-button>
+          <ion-icon
+            size="small"
+            class="linkedin-logo"
+            name="logo-linkedin"
+          ></ion-icon>
+        </ion-button>
+        <ion-searchbar
+          placeholder="Search"
+          color="tertiary"
+          class="ion-hide-lg"
+        ></ion-searchbar>
       </ion-buttons>
-      <ion-label>CARAIIIIIIIIIIIIIIIO</ion-label>
+      <ion-grid>
+        <ion-row class="ion-justify-content-end">
+          <ion-col size="auto">
+            <ion-icon name="home"></ion-icon>
+            <div>Home</div></ion-col
+          >
+
+          <ion-col size="auto">
+            <ion-icon name="people"></ion-icon>
+            <div>People</div></ion-col
+          >
+
+          <ion-col size="auto">
+            <ion-icon name="briefcase"></ion-icon>
+            <div>Jobs</div></ion-col
+          >
+
+          <ion-col size="auto">
+            <ion-icon name="chatbox-ellipses"></ion-icon>
+            <div>Messaging</div></ion-col
+          >
+
+          <ion-col size="auto">
+            <ion-icon name="notifications"></ion-icon>
+            <div>Notifications</div></ion-col
+          >
+
+          <ion-col size="auto">
+            <ion-icon name="home"></ion-icon>
+            <div>Me</div></ion-col
+          >
+        </ion-row>
+      </ion-grid>
     </div>
   </ion-toolbar>
 </ion-header>
